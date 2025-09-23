@@ -109,6 +109,26 @@ body {
   transform: rotate(10deg);
 }
 
+ /* boston pic */
+.media-grid img:nth-child(11) {
+  grid-column: 5/7;
+  grid-row: 2/4;
+  border-radius: 50%;
+  width: 150px;
+height: 150px;
+z-index: 2;
+}
+
+/* almaty pic */
+.media-grid img:nth-child(12) {
+  grid-column: 8/10;
+  grid-row: 2/4;
+  border-radius: 50%;
+  width: 150px;
+height: 150px;
+z-index: 2;
+}
+
 .center-content {
   position: relative;
   background: #e4caeede;
